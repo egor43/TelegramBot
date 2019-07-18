@@ -2,8 +2,8 @@
 from flask import Flask, Response
 from flask import request
 
-# Import auxiliary modules
-import json
+# Import Telegram classes
+from TelegramObjects import update
 
 # Constants
 TELEGRAM_API = "ttps://api.telegram.org/"
@@ -13,8 +13,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST'])
 def main():
-    data = json.loads(request.data.decode())
-    print(data)
+    input_update = update.Update(request.data)
     return "OK"
 
 if __name__ == '__main__':
