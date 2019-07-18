@@ -15,9 +15,7 @@ app = Flask(__name__)
 def main():
     data = json.loads(request.data.decode())
     print(data)
-    response_data = {"result": "ok"}
-    resp = Response(json.dumps(response_data), 200)
-    return resp
+    return "OK"
 
 if __name__ == '__main__':
     app.run()
