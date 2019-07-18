@@ -11,11 +11,8 @@ class Update():
     Describes the data from chat update
     """
 
-    # Update message
     message = None
-    # Update identifier
     update_id = None
-
 
     def __init__(self, update_data: dict):
         """

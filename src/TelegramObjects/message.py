@@ -5,22 +5,17 @@ https://tlgrm.ru/docs/bots/api#message
 author: Myshko E.V.
 """
 
+
 class Message():
     """
     Describes the message data from chat update
     """
 
-    # Message identifier
     message_id = None
-    # The user who sent the message
-    user = None
-    # Message date
+    user = None  # The user who sent the message
     date = None
-    # Message entities
     entities = None
-    # Message text
     text = None
-    # Chat info
     chat = None
 
     def __init__(self, message_data: dict):
