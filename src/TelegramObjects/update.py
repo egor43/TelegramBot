@@ -1,15 +1,14 @@
 """
-The class describes the object Update.
+The class describes the Update object from Telegram API
 https://tlgrm.ru/docs/bots/api#update
 
 author: Myshko E.V.
 """
 
-import json
 
 class Update():
     """
-    Describes the data received when updating the chat
+    Describes the data from chat update
     """
 
     # Update message
@@ -18,10 +17,9 @@ class Update():
     update_id = None
 
 
-    def __init__(self, telegram_request_data: bytes):
+    def __init__(self, update_data: dict):
         """
         Object initialization
-        :param telegram_request_data: Data received when updating chat from api telegram
+        :param update_data: Data received when updating chat from api telegram
         """
-        dict_data = json.loads(telegram_request_data.decode())
         pass
