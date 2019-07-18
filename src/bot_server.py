@@ -6,7 +6,7 @@ from flask import request
 from TelegramObjects import update
 
 # Constants
-TELEGRAM_API = "ttps://api.telegram.org/"
+TELEGRAM_API = "https://api.telegram.org/"
 BOT_TOKEN = ""
 
 app = Flask(__name__)
