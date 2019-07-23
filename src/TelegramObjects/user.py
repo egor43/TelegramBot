@@ -8,15 +8,15 @@ author: Myshko E.V.
 
 class User():
     """
-    Describes the user data from chat update
+    This object represents a bot or Telegram user.
     """
 
-    user_id = None
-    username = None
+    id = None
+    first_name = None
     first_name = None
     last_name = None
-    is_bot = None
-    language_code = None
+    username = None
+
 
     def __init__(self, user_data: dict):
         """
