@@ -1,6 +1,6 @@
 """
 The class describes the User object from Telegram API
-https://tlgrm.ru/docs/bots/api#message
+https://tlgrm.ru/docs/bots/api#user
 
 author: Myshko E.V.
 """
