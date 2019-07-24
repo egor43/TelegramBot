@@ -1,6 +1,6 @@
 """
 The class describes the Voice object from Telegram API
-https://tlgrm.ru/docs/bots/api#video
+https://tlgrm.ru/docs/bots/api#voice
 
 author: Myshko E.V.
 """
