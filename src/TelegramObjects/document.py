@@ -21,6 +21,6 @@ class Document:
     def __init__(self, document_data: dict):
         """
         Object initialization
-        :param message_entity_data: The document data that was received from the update object api telegram
+        :param document_data: The document data that was received from the update object api telegram
         """
         pass

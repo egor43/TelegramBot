@@ -20,6 +20,6 @@ class PhotoSize:
     def __init__(self, photo_size_data: dict):
         """
         Object initialization
-        :param message_entity_data: The photo size data that was received from the update object api telegram
+        :param photo_size_data: The photo size data that was received from the update object api telegram
         """
         pass

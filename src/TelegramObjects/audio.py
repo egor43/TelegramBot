@@ -22,6 +22,6 @@ class Audio:
     def __init__(self, audio_data: dict):
         """
         Object initialization
-        :param message_entity_data: The audio data that was received from the update object api telegram
+        :param audio_data: The audio data that was received from the update object api telegram
         """
         pass
