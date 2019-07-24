@@ -1,2 +1,2 @@
-# TelegramTranslatorBot
-Telegram bot - translator. The bot translates the user's text into one of the available languages.
+# TelegramBot
+A simple telegram bot providing basic functions and objects for working with Telegram API
