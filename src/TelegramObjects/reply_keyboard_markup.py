@@ -20,6 +20,6 @@ class ReplyKeyboardMarkup:
     def __init__(self, reply_keyboard_data: dict):
         """
         Object initialization
-        :param reply_keyboard_data: The reply keyboard data that was received from the update object api telegram
+        :param reply_keyboard_data: The keyboard data
         """
         pass
