@@ -6,7 +6,7 @@ author: Myshko E.V.
 """
 
 
-class PhotoSize():
+class PhotoSize:
     """
     This object represents an image of a certain size or a preview of a file / sticker.
     """

@@ -6,7 +6,7 @@ author: Myshko E.V.
 """
 
 
-class User():
+class User:
     """
     This object represents a bot or Telegram user.
     """

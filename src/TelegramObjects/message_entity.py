@@ -6,7 +6,7 @@ author: Myshko E.V.
 """
 
 
-class MessageEntity():
+class MessageEntity:
     """
     This object represents one of the special entities in the text message.
     For example: hashtags, user names, links, etc.

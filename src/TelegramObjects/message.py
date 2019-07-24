@@ -6,7 +6,7 @@ author: Myshko E.V.
 """
 
 
-class Message():
+class Message:
     """
     This object is a message.
     """

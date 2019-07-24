@@ -6,7 +6,7 @@ author: Myshko E.V.
 """
 
 
-class Update():
+class Update:
     """
     This object is an incoming update.
     For example, receiving messages from the user.

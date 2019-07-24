@@ -6,7 +6,7 @@ author: Myshko E.V.
 """
 
 
-class CallbackQuery():
+class CallbackQuery:
     """
     This object represents an incoming feedback request from an inline button with a given callback_data.
     """

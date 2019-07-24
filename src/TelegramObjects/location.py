@@ -6,7 +6,7 @@ author: Myshko E.V.
 """
 
 
-class Location():
+class Location:
     """
     This object represents a point on the map.
     """

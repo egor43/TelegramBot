@@ -6,7 +6,7 @@ author: Myshko E.V.
 """
 
 
-class Chat():
+class Chat:
     """
     This object is a chat.
     """
